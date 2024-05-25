@@ -34,7 +34,6 @@ class _HomepageState extends State<Homepage> {
           _searchBar(),
           const SizedBox(height: 40,),
           _categoriesSection()
-
         ],
       ),
     );

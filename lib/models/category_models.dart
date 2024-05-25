@@ -33,6 +33,14 @@ class CategoryModel {
             boxColor: const Color(0xff92A3FD)
         )
     );
+
+    categories.add(
+        CategoryModel(name: 'Orange',
+            iconPath: 'assets/icons/orange-snacks.svg',
+            boxColor: const Color(0xffC5bbF2)
+        )
+    );
+
     
     return categories;
   }
